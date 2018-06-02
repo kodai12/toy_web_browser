@@ -1,0 +1,6 @@
+[package]
+name = "toy_web_browser"
+version = "0.1.0"
+authors = ["sakochi_koudai <sakochi_koudai@aratana.jp>"]
+
+[dependencies]
