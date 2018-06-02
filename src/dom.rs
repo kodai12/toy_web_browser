@@ -1,4 +1,4 @@
-use std::collections::{HashMap};
+use std::collections::HashMap;
 
 struct Node {
     children: Vec<Node>,
@@ -30,6 +30,6 @@ fn elem(name: String, attrs: AttrMap, children: Vec<Node>) -> Node {
         node_type: NodeType::Element(ElementData {
             tag_name: name,
             attributes: attrs,
-        })
+        }),
     }
 }
